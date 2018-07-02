@@ -1,0 +1,70 @@
+body {
+  background-image:url("https://previews.123rf.com/images/christianchan/christianchan1509/christianchan150900407/45241874-maths-formulas-written-by-white-chalk-on-the-chalkboard-background-.jpg");
+  background-size: cover;
+  text-align: center;
+}
+div {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+
+}
+h1 {
+  font-family: Belazzo, Times-New-Roman, sans-seriff;
+  text-align: center;
+  color: white;
+  text-shadow: 0.75px 0.75px black, -0.75px 0.75px black, 0.75px -0.75px black, -0.75px -0.75px black;
+  font-size: 40px;
+}
+input {
+  padding: 5px;
+  margin: 5px;
+}
+input[type=button] {
+  width: 50px;
+  height: 50px;
+  font: 14 bold;
+  border-radius:2px;
+
+}
+
+input[type=button]:hover {
+  box-shadow: 0px 0px 0.5px 1px black;
+  background-color: #00ffff;
+  color: red;
+
+}
+#display {
+  border-radius: 3px;
+  border: 1px solid black;
+  text-align: right;
+  font: 16px bold;
+
+}
+
+#calc-display {
+  margin: auto;
+  width: 100%;
+  padding: 0px;
+  opacity: 1;
+  background-color: orange;
+
+}
+#calculator {
+  position: relative;
+  border: 1px solid black;
+  width:20%;
+  margin: auto;
+  border-radius: 10px;
+  background-color: orange;
+  padding: 5px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 3px 6px grey;
+
+}
+#clear {
+  width: 115px;
+  text-align:center;
+  margin: 5px;
+  padding: 5px;
+}
